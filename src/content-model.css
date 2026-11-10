@@ -1,0 +1,20 @@
+.content-model-state {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+
+.content-model-spinner {
+  width: 28px;
+  height: 28px;
+  border: 2px solid #dce5df;
+  border-top-color: #315e49;
+  border-radius: 50%;
+  animation: content-spin 800ms linear infinite;
+}
+
+@keyframes content-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
